@@ -1,5 +1,3 @@
-// Button.test.jsx - Unit test for Button component
-
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -92,4 +90,4 @@ describe('Button Component', () => {
     // Should also have the default classes
     expect(button).toHaveClass('btn-primary');
   });
-}); 
+});
